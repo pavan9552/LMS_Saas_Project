@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///home/pavan/Downloads/FrontendProjects/SAAS_Project/app/companions/new/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst NewCompanion = () => {\n  return (\n    <div>\n      New\n    </div>\n  )\n}\n\nexport default NewCompanion;\n"],"names":[],"mappings":";;;;;;AAEA,MAAM,eAAe;IACnB,qBACE,8OAAC;kBAAI;;;;;;AAIT;uCAEe","debugId":null}}]
+}
