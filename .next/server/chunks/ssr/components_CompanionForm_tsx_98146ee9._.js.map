@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/pavan/Downloads/FrontendProjects/SAAS_Project/components/CompanionForm.tsx"],"sourcesContent":["\"use client\"\n\nimport { z } from \"zod\"\n\n\n\nimport React from 'react'\n\n\nconst formSchema = z.object({\n  username: z.string().min(2).max(50),\n})\n\nconst CompanionForm = () => {\n  return (\n    <div>\n      \n    </div>\n  )\n}\n\nexport default CompanionForm\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AASA,MAAM,aAAa,kLAAC,CAAC,MAAM,CAAC;IAC1B,UAAU,kLAAC,CAAC,MAAM,GAAG,GAAG,CAAC,GAAG,GAAG,CAAC;AAClC;AAEA,MAAM,gBAAgB;IACpB,qBACE,8OAAC;;;;;AAIL;uCAEe","debugId":null}}]
+}
