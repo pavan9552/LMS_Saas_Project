@@ -48,6 +48,12 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/companions/new">
 }
 
+// Validate ../../app/companions/page.tsx
+{
+  const handler = {} as typeof import("../../app/companions/page.js")
+  handler satisfies AppPageConfig<"/companions">
+}
+
 // Validate ../../app/my-journey/page.tsx
 {
   const handler = {} as typeof import("../../app/my-journey/page.js")
