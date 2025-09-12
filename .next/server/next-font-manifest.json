@@ -1,5 +1,17 @@
 {
   "app": {
+    "[project]/app/companions/[id]/page": [
+      "static/media/017d9bea37084d9b-s.p.a6d6de71.woff2"
+    ],
+    "[project]/app/companions/new/page": [
+      "static/media/017d9bea37084d9b-s.p.a6d6de71.woff2"
+    ],
+    "[project]/app/companions/page": [
+      "static/media/017d9bea37084d9b-s.p.a6d6de71.woff2"
+    ],
+    "[project]/app/my-journey/page": [
+      "static/media/017d9bea37084d9b-s.p.a6d6de71.woff2"
+    ],
     "[project]/app/page": [
       "static/media/017d9bea37084d9b-s.p.a6d6de71.woff2"
     ]
