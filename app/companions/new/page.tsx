@@ -7,10 +7,11 @@ const NewCompanion = () => {
       <article className='w-full gap-4 flex flex-col'>
         <h1>
           Companion Builder
-          <CompanionForm/>
+          
 
 
         </h1>
+        <CompanionForm/>
 
       </article>
       
