@@ -935,6 +935,10 @@
     position: relative;
   }
 
+  .static {
+    position: static;
+  }
+
   .right-2 {
     right: calc(var(--spacing) * 2);
   }

@@ -1,6 +1,7 @@
 {
+  "/companions/[id]/page": "app/companions/[id]/page.js",
   "/companions/new/page": "app/companions/new/page.js",
-  "/companions/page": "app/companions/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/sign-in/[[...sign-in]]/page": "app/sign-in/[[...sign-in]]/page.js"
 }

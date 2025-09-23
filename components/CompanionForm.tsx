@@ -6,6 +6,8 @@ import { useForm } from "react-hook-form"
 import { Button } from "@/components/ui/button"
 import { subjects } from "@/constants"
 import { Textarea } from "./ui/textarea"
+import { createCompanion } from "@/lib/actions/companion.action"
+import { redirect } from "next/navigation"
 import {
   Form,
   FormControl,
@@ -23,6 +25,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+
 
 
 const formSchema = z.object({
@@ -51,10 +54,19 @@ const CompanionForm = () => {
 
 
   // 2. Define a submit handler.
-  const onSubmit = (values: z.infer<typeof formSchema>) => {
+  const onSubmit = async(values: z.infer<typeof formSchema>) => {
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
-    console.log(values)
+    const companion = await createCompanion(values);
+    if(companion)
+    {
+        redirect(`/companions/${companion.id}`);
+    }
+
+    else{
+        console.log("Failed to create companion");
+        redirect('/');
+    }
   }
   return (
      <Form {...form}>

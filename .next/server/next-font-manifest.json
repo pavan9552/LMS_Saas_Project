@@ -1,12 +1,15 @@
 {
   "app": {
+    "[project]/app/companions/[id]/page": [
+      "static/media/017d9bea37084d9b-s.p.a6d6de71.woff2"
+    ],
     "[project]/app/companions/new/page": [
       "static/media/017d9bea37084d9b-s.p.a6d6de71.woff2"
     ],
-    "[project]/app/companions/page": [
+    "[project]/app/page": [
       "static/media/017d9bea37084d9b-s.p.a6d6de71.woff2"
     ],
-    "[project]/app/page": [
+    "[project]/app/sign-in/[[...sign-in]]/page": [
       "static/media/017d9bea37084d9b-s.p.a6d6de71.woff2"
     ]
   },
