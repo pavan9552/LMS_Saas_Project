@@ -1,0 +1,59 @@
+'use client';
+import React from 'react';
+import Image from 'next/image';
+import { useEffect,useState } from 'react';
+import { usePathname,useRouter,useSearchParams } from 'next/navigation';
+import {formUrlQuery, removeKeysFromUrlQuery} from "@jsmastery/utils";
+import path from 'path';
+
+
+const SearchInput = () => {
+  const pathname = usePathname();
+  const router=useRouter();
+  const searchParams = useSearchParams();
+  const query = searchParams.get('topic') || '';
+  const [searchQuery,setSearchQuery] = useState('');
+
+  useEffect(()=>
+{ const delayDebounceFn = setTimeout(()=>
+{
+    if(searchQuery)
+    {
+        const newurl=formUrlQuery({
+            params:searchParams.toString(),
+            key:"topic",
+            value:searchQuery,
+        });
+        router.push(newurl,{scroll:false});
+    }
+
+    else
+    {
+        if(pathname==='/companions')
+        {
+            const newUrl = removeKeysFromUrlQuery({
+                params:searchParams.toString(),
+                keysToRemove:["topic"],
+            });
+
+            router.push(newUrl,{scroll:false});
+        }
+    }
+})
+
+},[searchQuery,router,searchParams,pathname]);
+
+  return (
+    <div>
+        <div className='relative border border-black rounded-lg items-center flex gap-2 px-2 py-1 h-fit'>
+            <Image src="/icons/search.svg" alt="Search" width={15} height={15}/>
+            <input placeholder='Search Companions...' className='outline-none' value={searchQuery} onChange={(e)=>setSearchQuery(e.target.value)}/>
+
+
+        </div>
+      
+    </div>
+  )
+}
+
+export default SearchInput

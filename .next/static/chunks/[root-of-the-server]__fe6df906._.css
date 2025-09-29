@@ -1084,6 +1084,11 @@
     height: var(--radix-select-trigger-height);
   }
 
+  .h-fit {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
   .h-px {
     height: 1px;
   }
@@ -1207,6 +1212,10 @@
     overflow-y: auto;
   }
 
+  .rounded {
+    border-radius: .25rem;
+  }
+
   .rounded-lg {
     border-radius: var(--radius);
   }
@@ -1232,6 +1241,10 @@
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
+  }
+
+  .border-black {
+    border-color: var(--color-black);
   }
 
   .border-input {
