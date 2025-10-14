@@ -120,6 +120,36 @@
       "exportedName": "getAllCompanions",
       "filename": "lib/actions/companion.action.ts"
     },
+    "7fa9fe041cbd4e3a754c71171d7f084df22a3da1b8": {
+      "workers": {
+        "app/companions/page": {
+          "moduleId": "[project]/.next-internal/server/app/companions/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/lib/actions/companion.action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getCompanion",
+          "filename": "lib/actions/companion.action.ts"
+        }
+      },
+      "layer": {
+        "app/companions/page": "rsc"
+      },
+      "exportedName": "getCompanion",
+      "filename": "lib/actions/companion.action.ts"
+    },
+    "7fd3f49ad64fb34e09190675542656af68686e4497": {
+      "workers": {
+        "app/companions/page": {
+          "moduleId": "[project]/.next-internal/server/app/companions/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/lib/actions/companion.action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "addToSessionHistory",
+          "filename": "lib/actions/companion.action.ts"
+        }
+      },
+      "layer": {
+        "app/companions/page": "rsc"
+      },
+      "exportedName": "addToSessionHistory",
+      "filename": "lib/actions/companion.action.ts"
+    },
     "7ffa878cf3bf8445cbaaf063fd4f05cd6fcb511b7d": {
       "workers": {
         "app/companions/page": {
