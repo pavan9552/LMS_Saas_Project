@@ -93,12 +93,14 @@ const CompanionComponent = ({ companionId, subject, topic, name, userName, userI
     }
 
 
-    const handleDisconnect = () => {
+   
+
+}
+
+ const handleDisconnect = () => {
         setCallStatus(CallStatus.FINISHED)
         vapi.stop()
     }
-
-}
 
 
 
