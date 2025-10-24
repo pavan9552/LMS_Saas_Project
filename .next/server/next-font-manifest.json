@@ -1,19 +1,6 @@
 {
-  "app": {
-    "[project]/app/companions/[id]/page": [
-      "static/media/017d9bea37084d9b-s.p.a6d6de71.woff2"
-    ],
-    "[project]/app/companions/page": [
-      "static/media/017d9bea37084d9b-s.p.a6d6de71.woff2"
-    ],
-    "[project]/app/page": [
-      "static/media/017d9bea37084d9b-s.p.a6d6de71.woff2"
-    ],
-    "[project]/app/sign-in/[[...sign-in]]/page": [
-      "static/media/017d9bea37084d9b-s.p.a6d6de71.woff2"
-    ]
-  },
-  "appUsingSizeAdjust": true,
+  "app": {},
+  "appUsingSizeAdjust": false,
   "pages": {},
   "pagesUsingSizeAdjust": false
 }

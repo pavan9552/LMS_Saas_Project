@@ -1,22 +1,34 @@
 {
   "pages": {
     "/my-journey/page": [
-      "static/chunks/node_modules_next_dist_8db7fb1f._.js",
-      "static/chunks/app_favicon_ico_mjs_e98bdb63._.js",
+      "static/chunks/node_modules_next_dist_abffcd14._.js",
+      "static/chunks/app_favicon_ico_mjs_641d4485._.js",
       "static/chunks/[root-of-the-server]__fe6df906._.css",
-      "static/chunks/node_modules_7caa572a._.js",
+      "static/chunks/node_modules_@clerk_nextjs_dist_esm_app-router_b029e035._.js",
+      "static/chunks/node_modules_5af2e58f._.js",
       "static/chunks/_0cfd13bf._.js",
-      "static/chunks/app_layout_tsx_0a548d63._.js",
-      "static/chunks/node_modules_next_dist_client_components_builtin_global-error_480b2487.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_57d40746._.js",
+      "static/chunks/app_layout_tsx_b79dc1e2._.js",
+      "static/chunks/_216f8f3a._.js",
+      "static/chunks/app_global-error_tsx_b47e0370._.js",
+      "static/chunks/node_modules_a300381e._.js",
+      "static/chunks/components_ui_8c57a3ee._.js",
+      "static/chunks/app_my-journey_page_tsx_b47e0370._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_2654ffc5._.js",
       "static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js",
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_a9cb0712.js",
-      "static/chunks/node_modules_next_dist_compiled_5150ccfd._.js",
-      "static/chunks/node_modules_next_dist_client_cf1d9188._.js",
-      "static/chunks/node_modules_next_dist_b0daae9a._.js",
-      "static/chunks/node_modules_@swc_helpers_cjs_b3dc30d6._.js",
+      "static/chunks/node_modules_next_dist_compiled_b1d87949._.js",
+      "static/chunks/node_modules_next_dist_client_7dd460f2._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_5975d31c._.js",
+      "static/chunks/node_modules_next_dist_53b9775f._.js",
+      "static/chunks/node_modules_next_router_9e4be07f.js",
+      "static/chunks/node_modules_@sentry_f7dbf484._.js",
+      "static/chunks/50095_@sentry_browser_build_npm_esm_240f0f89._.js",
+      "static/chunks/50095_@sentry-internal_browser-utils_build_esm_dc6e8ff4._.js",
+      "static/chunks/50095_@sentry-internal_replay_build_npm_esm_index_179c77cf.js",
+      "static/chunks/node_modules_fabb05ca._.js",
+      "static/chunks/instrumentation-client_ts_15a74a80._.js",
       "static/chunks/_a0ff3932._.js",
-      "static/chunks/turbopack-_cdba956c._.js"
+      "static/chunks/turbopack-_73a06733._.js"
     ]
   }
 }
